@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sompartha Sinha | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="script.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body style="background-image: url('assets/bg-texture.jpg'); background-size: cover;">
+  <header data-aos="fade-down">
+    <h1>Sompartha Sinha</h1>
+    <p><span class="typing"></span></p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a> 
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="assets/profile1.jpg" alt="Sompartha Sinha"/>
+      <div class="about-text">
+        <p>Hi, I’m <strong>Sompartha Sinha</strong> — a Frontend Developer, Competitive Programmer, and budding Data Scientist. I enjoy building web experiences, solving algorithmic challenges, and working on impactful data-driven projects.</p>
+        <div class="about-socials">
+          <a href="https://github.com/sompartha" target="_blank">🌐 GitHub</a>
+          <a href="https://www.linkedin.com/in/sompartha-sinha-46b055298/" target="_blank">🔗 LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Tech Stack</h2>
+    <div class="skills">
+      <img src="assets/cpp.png" alt="C++"/>
+      <img src="assets/python.png" alt="Python"/>
+      <img src="assets/html.png" alt="HTML"/>
+      <img src="assets/css.png" alt="CSS"/>
+      <img src="assets/js.png" alt="JavaScript"/>
+      <img src="assets/react.png" alt="React"/>
+    </div>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>📁 File Management System</h3>
+      <p>A command-line file manager in C++ that performs operations like file creation, renaming, and deletion with efficient directory handling.</p>
+      <a href="https://github.com/sompartha/FileManagementSystem" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>💰 Income Prediction</h3>
+      <p>Built a logistic regression model using Python and Scikit-learn to predict income levels from demographic features in the Adult Census dataset.</p>
+      <a href="https://github.com/sompartha/Income-Prediction" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>📊 Custom Linear Regression</h3>
+      <p>Implemented linear regression from scratch using gradient descent, visualized cost reduction and final prediction curves using Matplotlib.</p>
+      <a href="https://github.com/sompartha/custom-linear-regression" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>📈 Stock Price Analyzer</h3>
+      <p>A real-time stock analysis tool built in Python that fetches live data using APIs and visualizes historical trends using Matplotlib and Pandas.</p>
+      <a href="https://github.com/sompartha/stockanalyzer" target="_blank">🔗 View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>📊 Business Analysis – Digital Marketing</h3>
+      <p>A data-driven business analysis of a digital marketing company to uncover actionable insights and optimize operations.</p>
+      <a href="https://github.com/sompartha/business-analysis-of-digital-marketing-company" target="_blank">🔗 View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="resume" data-aos="fade-up">
+    <h2>Resume & Profiles</h2>
+    <div class="resume-buttons">
+      <a href="assets/sompartha_resume.pdf" target="_blank" class="btn">📄 View Resume</a>
+      <a href="https://leetcode.com/Sompartha_Sinha" target="_blank" class="btn">🧠 LeetCode</a>
+      <a href="https://auth.geeksforgeeks.org/user/sinhasomnl65" target="_blank" class="btn">📘 GFG</a>
+      <a href="https://codeforces.com/profile/sinhasompartha" target="_blank" class="btn">⚔️ Codeforces</a>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xwkgdzqp" method="POST" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="_replyto" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="thank-you-msg" style="display: none;">Thanks for reaching out! I'll get back to you soon.</p>
+    <div class="socials">
+      <a href="https://github.com/sompartha" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/sompartha-sinha-46b055298/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Sompartha Sinha</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

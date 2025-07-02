@@ -1,0 +1,148 @@
+body {
+  color: #c9d1d9;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+nav a {
+  color: #00ff9d;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.typing {
+  color: #8b949e;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+section {
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 900px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container img {
+  width: 300px;
+  border-radius: 12px;
+  margin: 1rem;
+}
+
+.about-text {
+  max-width: 500px;
+  margin: 1rem;
+}
+
+.skills img {
+  height: 50px;
+  margin: 0.5rem;
+}
+
+.project-card {
+  background: #161b22;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: #0d1117;
+  color: #c9d1d9;
+  border: 1px solid #00ff9d;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 1rem;
+  resize: vertical;
+}
+
+.contact-form button {
+  background: #00c67c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #00ff9d;
+}
+
+.socials a {
+  color: #00ff9d;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.6);
+  margin-top: 2rem;
+}
+.about-socials {
+  margin-top: 1rem;
+}
+
+.about-socials a {
+  color: #00ff9d;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 1rem; /* adds spacing between links */
+  display: inline-block;
+}
+
+.about-socials a:hover {
+  text-decoration: underline;
+  color: #00ffbf;
+}
+.about-buttons {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.about-buttons .btn {
+  background-color: #00c67c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.about-buttons .btn:hover {
+  background-color: #00ff9d;
+  color: #000;
+}
+
